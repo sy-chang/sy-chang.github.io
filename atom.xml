@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changsiyu.com</id>
     <title>SIYU CHANG</title>
-    <updated>2022-05-11T05:59:38.129Z</updated>
+    <updated>2022-05-11T07:42:30.964Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changsiyu.com"/>
     <link rel="self" href="https://changsiyu.com/atom.xml"/>
@@ -12,9 +12,11 @@
     <rights>All rights reserved 2022, SIYU CHANG</rights>
     <entry>
         <title type="html"><![CDATA[Multi-generational Urban Park]]></title>
-        <id>https://changsiyu.com/post/Multi-generational Urban Park/</id>
-        <link href="https://changsiyu.com/post/Multi-generational Urban Park/">
+        <id>https://changsiyu.com/Multi-generational Urban Park/</id>
+        <link href="https://changsiyu.com/Multi-generational Urban Park/">
         </link>
         <updated>2021-08-23T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>#多代同堂城市公园——以育儿为主满足各种需求的公园型综合体</p>
+]]></content>
     </entry>
 </feed>
