@@ -1,0 +1,172 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Atsugi Bus-station Library | SIYU CHANG</title>
+<link rel="shortcut icon" href="https://changsiyu.com/favicon.ico?v=1652443012493">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://changsiyu.com/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Atsugi Bus-station Library | SIYU CHANG - Atom Feed" href="https://changsiyu.com/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="厚木市巴士中心站旁图书馆
+
+
+
+
+本站为本人作品集网站，本站发布的一切内容均为原创作品，作者保留著作权及署名权。未经授权，请不要转载或使用本站任何内容，造成任何问题后果自负
+..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://changsiyu.com">
+  <img class="avatar" src="https://changsiyu.com/images/avatar.png?v=1652443012493" alt="">
+  </a>
+  <h1 class="site-title">
+    SIYU CHANG
+  </h1>
+  <p class="site-description">
+    less is more
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="https://changsiyu.com/archives" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="https://changsiyu.com/archives" class="menu">
+          作品集
+        </a>
+      
+    
+      
+        <a href="https://changsiyu.com/archives" class="menu">
+          关于我
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Atsugi Bus-station Library
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-05-13
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://changsiyu.com/post-images/CFcUpLemE.jpg" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p><strong>厚木市巴士中心站旁图书馆</strong><br>
+<img src="https://changsiyu.com/post-images/1652442885908.png" alt="" loading="lazy"><br>
+<img src="https://changsiyu.com/post-images/1652442891322.png" alt="" loading="lazy"><br>
+<img src="https://changsiyu.com/post-images/1652442897517.png" alt="" loading="lazy"><br>
+<img src="https://changsiyu.com/post-images/1652442902794.jpg" alt="" loading="lazy"></p>
+<p><em>本站为本人作品集网站，本站发布的一切内容均为原创作品，作者保留著作权及署名权。未经授权，请不要转载或使用本站任何内容，造成任何问题后果自负</em></p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://changsiyu.com/RirCpbV5O/">
+              <h3 class="post-title">
+                OMO SHAREHOUSE
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2021016993号-1</a>
+  <a class="rss" href="https://changsiyu.com/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
