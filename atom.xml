@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://changsiyu.com</id>
     <title>SIYU CHANG</title>
-    <updated>2022-05-13T11:18:30.355Z</updated>
+    <updated>2022-05-13T11:49:47.435Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://changsiyu.com"/>
     <link rel="self" href="https://changsiyu.com/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://changsiyu.com/images/avatar.png</logo>
     <icon>https://changsiyu.com/favicon.ico</icon>
     <rights>All rights reserved 2022, SIYU CHANG</rights>
+    <entry>
+        <title type="html"><![CDATA[OMO SHAREHOUSE]]></title>
+        <id>https://changsiyu.com/RirCpbV5O/</id>
+        <link href="https://changsiyu.com/RirCpbV5O/">
+        </link>
+        <updated>2022-05-13T11:46:31.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>数字时代下的居住综合体</strong><br>
+<img src="https://changsiyu.com/post-images/1652442490720.png" alt="" loading="lazy"><br>
+<img src="https://changsiyu.com/post-images/1652442501098.png" alt="" loading="lazy"><br>
+<img src="https://changsiyu.com/post-images/1652442505316.png" alt="" loading="lazy"><br>
+<img src="https://changsiyu.com/post-images/1652442510235.jpg" alt="" loading="lazy"><br>
+<img src="https://changsiyu.com/post-images/1652442516200.png" alt="" loading="lazy"><br>
+<img src="https://changsiyu.com/post-images/1652442520444.png" alt="" loading="lazy"></p>
+<p><em>本站为本人作品集网站，本站发布的一切内容均为原创作品，作者保留著作权及署名权。未经授权，请不要转载或使用本站任何内容，造成任何问题后果自负</em></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Multi-generational Urban Park]]></title>
         <id>https://changsiyu.com/Multi-generational Urban Park/</id>
